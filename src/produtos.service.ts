@@ -2,6 +2,8 @@ import { Injectable } from "@nestjs/common";
 import { Produto } from "./produto.model";
 
 @Injectable() //injetando classes em outras - no caso, injetando no controlador
+//injeção de dependencia é um padrao de projeto que ajuda a manter um baixo nivel de acoplamento entre classes.
+//sao definidas pelo framework.
 export class ProdutosService {
     produtos: Produto[] = [
         new Produto('Livro001', 'Livro Javascript', 30.00),
