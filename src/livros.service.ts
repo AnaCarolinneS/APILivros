@@ -6,9 +6,9 @@ import { Livro } from "./livro.model";
 //sao definidas pelo framework.
 export class LivrosService {
     livros: Livro[] = [
-        new Livro('Livro001', 'Livro Javascript', 30.00),
+        /* new Livro('Livro001', 'Livro Javascript', 30.00),
         new Livro('Livro002', 'Livro MongoDB', 60.00),
-        new Livro('Livro003', 'Livro Java', 99.00)
+        new Livro('Livro003', 'Livro Java', 99.00) */
     ];
 
     obterTodos(): Livro[] {
