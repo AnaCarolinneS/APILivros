@@ -1,4 +1,4 @@
-<p1>API Rest com Typescript<p2>
+<p1>API Rest com Typescript<p1>
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
